@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+}
+
+p{
+    line-height: 1.5;
+}
+
+header{
+    background: linear-gradient(100deg, hsl(13, 100%, 72%),hsl(353, 100%, 62%)), url('./images/bg-pattern-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: 50%;
+    overflow: hidden;
+    height: 70vh;
+    background-blend-mode: soft-light;
+    border-bottom-left-radius: 100px;
+}
+
+nav{
+    padding-top: 50px !important;
+    padding-left: 10% !important;
+}
+
+.nav-link{
+    margin-left: 30px;
+    color: white !important;
+}
+
+.ml-auto{
+    padding-right: 10%;
+}
+
+.registerButton{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    color: hsl(356, 100%, 66%) !important;
+    font-weight: 700;
+    background: white;
+    border-radius: 20px;
+}
+
+.cta{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    color: hsl(356, 100%, 66%) !important;
+    font-weight: 700;
+    background: white;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cta2{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-weight: 700;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    color: white !important;
+}
+
+#headerContent{
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+
+#section1{
+    background: url('./images/illustration-editor-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: 130%;
+    height: 100vh;
+}
+
+#section1Header{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: hsl(208, 49%, 24%);
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 5%;
+}
+
+#section1ContentContainer{
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 5%;
+}
+
+#section1ContentContainer > div > h3{
+    color: hsl(208, 49%, 24%);;
+}
+
+#section1ContentContainer > div > p{
+    line-height: 2;
+    width: 40%;
+}
+
+#section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background: url('./images/bg-pattern-circles.svg');
+    background-color: hsl(237, 17%, 21%);
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: -20% 80%;
+    height: 40vh;
+}
+
+#section2 > div > p,#section2 > div > h2{
+    color: white;
+    width: 50%;
+}
+
+#section3{
+    height: 100vh;
+    background: url('./images/illustration-laptop-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: fit;
+}

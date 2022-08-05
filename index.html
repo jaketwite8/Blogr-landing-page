@@ -7,15 +7,97 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | [Blogr]</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Product
+  <header>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/logo.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Connect</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="registerButton nav-link" href="#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="headerContent">
+      <h1 style="font-family: 'Overpass', sans-serif; font-weight: 600; font-size: 4rem; text-align: center;">A modern publishing platform</h1>
+      <p style="padding-top: 10px; font-size: 20px;">Grow your audience and build your online brand</p>
+      <div id="headerButtonContainer">
+        <a href="#" class="cta">Start for Free</a>
+        <a href="#" class="cta2">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="section1">
+    <div id="section1ContentContainer">
+      <h2 id="section1Header">Designed for the future</h2>
+      <div>
+        <h3>Introducing an extensible editor</h3>
+        <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+          change the looks of a blog.</p>
+      </div>
+      <div>
+        <h3>Robust content management</h3>
+        <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+          by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+      </div>
+    
+
+    </div>
+  </section>
+  <section id="section2">
+    <img src="./images/illustration-phones.svg">
+    <div id="section2Content">
+      <h2>State of the Art Infrastructure</h2>
+      <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+    </div>
+  </section>
+  <section id="section3">
+    
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer>
+
+  </footer>
+  <!-- Product
 
   Overview
   Pricing
@@ -89,7 +171,9 @@
   
   Contact
   Newsletter
-  LinkedIn
-  
-  </body>
+  LinkedIn -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
