@@ -6,11 +6,11 @@
     padding: 0;
     margin: 0;
     text-decoration: none !important;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 16px;
 }
 
-p{
-    line-height: 1.5;
-}
 
 header{
     background: linear-gradient(100deg, hsl(13, 100%, 72%),hsl(353, 100%, 62%)), url('./images/bg-pattern-intro-desktop.svg');
@@ -115,7 +115,7 @@ nav{
 }
 
 #section1ContentContainer > div > h3{
-    color: hsl(208, 49%, 24%);;
+    color: hsl(208, 49%, 24%);
 }
 
 #section1ContentContainer > div > p{
@@ -123,7 +123,7 @@ nav{
     width: 40%;
 }
 
-#section2{
+#section2Container{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -136,10 +136,14 @@ nav{
     background-repeat: no-repeat;
     background-size: fill;
     background-position: -20% 80%;
-    height: 40vh;
+    height: 400px;
 }
 
-#section2 > div > p,#section2 > div > h2{
+#section2{
+    height: 50vh;
+}
+
+#section2Container > div > p,#section2Container > div > h2{
     color: white;
     width: 50%;
 }
@@ -149,4 +153,23 @@ nav{
     background: url('./images/illustration-laptop-desktop.svg');
     background-repeat: no-repeat;
     background-size: fit;
+}
+
+#section3Content{
+    gap: 10%;
+    height: 100%;
+    margin-left: auto;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+footer{
+    border-top-right-radius: 100px;
+    background: hsl(240, 10%, 16%);
+    color: hsl(240, 2%, 79%) !important;
+    height: 40vh;
 }
